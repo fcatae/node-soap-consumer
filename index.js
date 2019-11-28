@@ -1,5 +1,4 @@
-var express = require('express')
-var app = express();
+var app = require('express')()
 var soap = require('soap');
 
 var url = 'http://localhost:5000/pedidos?wsdl';
